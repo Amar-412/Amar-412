@@ -61,3 +61,41 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/Amar-412/Amar-412/output/pacman-contribution-graph.svg" alt="Pacman animation" />
 </p>
+
+---
+
+<!-- GitHub Action workflow code -->
+<details>
+<summary>⚙️ Pacman Workflow Code</summary>
+
+```yaml
+name: Generate pacman animation
+
+on:
+  schedule: # execute every 12 hours
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Generate pacman-contribution-graph.svg
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+
+      - name: Push pacman-contribution-graph.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
