@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Amar</h1>
 <h3 align="center">A passionate Competitive Coder and Front-end dev enthusiast from India</h3>
 
-- 👨‍💻 All of my projects are available at (Amar-412/Personal-cont)  
+- 👨‍💻 All of my projects are available at Amar-412/Personal-cont  
 - 💬 Ask me about **C++, React, Python, JAVA**  
 - 📫 How to reach me **amar.sork@gmail.com**  
 - ⚡ Fun fact **Green color on the compiler hits different (:**  
@@ -27,13 +27,13 @@
 </p>  
 
 <!-- Coding GIF -->
-<div align="right" style="margin-top:-40px;">
+<div align="right" style="margin-top:-80px;">
   <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" alt="coding gif" width="250"/>
 </div>
 
 ---
 
-<h3 align="center">🐹 Pacman Contribution Graph 🐹</h3>
-<p align="center">
+<h3 align="center" style="margin-top:-40px;">🐹 Pacman Contribution Graph 🐹</h3>
+<p align="center" style="margin-top:-20px;">
   <img src="https://raw.githubusercontent.com/Amar-412/Amar-412/output/pacman-contribution-graph.svg" alt="Pacman animation"/>
 </p>
