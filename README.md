@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Amar</h1>
-<h3 align="center">A passionate Competitive Coder and Front-end dev enthusiast from India</h3>
+<h3 align="center">A passionate Competitive Coder and Backend dev enthusiast from India</h3>
 
 - 👨‍💻 All of my projects are available at Amar-412 
 - 💬 Ask me about **C++, ReactJS, Python, JAVA, Spring Boot, MERN And LIFE**  
