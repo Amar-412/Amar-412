@@ -2,7 +2,7 @@
 <h3 align="center">A passionate Competitive Coder and Front-end dev enthusiast from India</h3>
 
 - 👨‍💻 All of my projects are available at Amar-412 
-- 💬 Ask me about **C++, ReactJS, Python, JAVA, And whatever You Wish To**  
+- 💬 Ask me about **C++, ReactJS, Python, JAVA, Spring Boot, MERN And LIFE**  
 - 📫 How to reach me **amar.sork@gmail.com**  
 - ⚡ Fun fact **Green color on the compiler hits different (:**  
 
